@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', 'Verdana', sans-serif;
+    height: 100vh;
+    overflow: hidden;    
+}
+.container {
+    display: flex;
+    margin: 2rem;
+    width: 90vw;
+}
+.panel {
+    color: #fff;
+    position: relative;
+    margin: 1rem;
+    padding: 1rem; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    border-radius: 25px;
+    flex: 0.5;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.7s ease-in;
+}
+.panel.active {
+    flex: 5;
+}
+.panel.h3 {
+    position: absolute;
+    bottom: 20px; 
+
+
+}
